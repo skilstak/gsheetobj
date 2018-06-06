@@ -11,6 +11,8 @@ describe('fetchMeta(conf)', _ => {
     gsobj.fetchMeta(conf)
       .then(data => {
         expect(data._.timeZone).to.be.equal('America/New_York')
+        expect(data._.schema).to.be.a('Array')
+        expect(data._.schema[0]).to.be.equal('Calendar')
         done()
       }).catch(err => console.log(err))
   })

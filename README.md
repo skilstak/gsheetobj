@@ -59,9 +59,6 @@ Names are kept as they are allowing developers to decide to use
 long-hand indexing (with `[]`) or stick with dotted notation legal
 names.
 
-The `lower` and `nows` options can be set to lowercase the name and
-remove white space.
-
 The only reserved name is the spreadsheet/table name `meta` which is
 used to contain information about all of the parsed data as detected.
 Just do not name any individual sheet in your spreadsheet `meta` and you
@@ -86,7 +83,8 @@ Data Preparation Suggestions
 Remove any rows or columns that are not being used to avoid blanks being
 returned.
 
-Limit the number of columns to the letters of the alphabet (27). This is
+Although you can have as many columns as Google allows, you should limit
+the number of columns to the letters of the alphabet (27). This is
 plenty and will encourage you to keep your data at least somewhat
 normalized.
 

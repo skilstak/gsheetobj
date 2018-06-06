@@ -1,0 +1,1356 @@
+{
+	"meta": {
+		"timeZone": "America/New_York",
+		"tables": [
+			{
+				"name": "Calendar",
+				"names": [
+					"Date",
+					"T",
+					"Description"
+				]
+			},
+			{
+				"name": "WeekSummer",
+				"names": [
+					"MONDAY",
+					"TUESDAY",
+					"WEDNESDAY",
+					"THURSDAY",
+					"FRIDAY",
+					"SATURDAY",
+					"SUNDAY"
+				],
+				"keys": [
+					"9:00 AM",
+					"10:00 AM",
+					"11:00 AM",
+					"12:00 PM",
+					"1:00 PM",
+					"2:00 PM",
+					"3:00 PM",
+					"4:00 PM",
+					"5:00 PM",
+					"6:00 PM",
+					"7:00 PM",
+					"8:00 PM",
+					"9:00 PM"
+				]
+			},
+			{
+				"name": "WeekFall",
+				"names": [
+					"MONDAY",
+					"TUESDAY",
+					"WEDNESDAY",
+					"THURSDAY",
+					"FRIDAY",
+					"SATURDAY",
+					"SUNDAY"
+				],
+				"keys": [
+					"9:00 AM",
+					"10:00 AM",
+					"11:00 AM",
+					"12:00 PM",
+					"1:00 PM",
+					"2:00 PM",
+					"3:00 PM",
+					"4:00 PM",
+					"5:00 PM",
+					"6:00 PM",
+					"7:00 PM",
+					"8:00 PM",
+					"9:00 PM"
+				]
+			},
+			{
+				"name": "WeekWinter",
+				"names": [
+					"MONDAY",
+					"TUESDAY",
+					"WEDNESDAY",
+					"THURSDAY",
+					"FRIDAY",
+					"SATURDAY",
+					"SUNDAY"
+				],
+				"keys": [
+					"9:00 AM",
+					"10:00 AM",
+					"11:00 AM",
+					"12:00 PM",
+					"1:00 PM",
+					"2:00 PM",
+					"3:00 PM",
+					"4:00 PM",
+					"5:00 PM",
+					"6:00 PM",
+					"7:00 PM",
+					"8:00 PM",
+					"9:00 PM"
+				]
+			},
+			{
+				"name": "Courses",
+				"names": [
+					"ID",
+					"Title",
+					"Description",
+					"Work",
+					"Status",
+					"Ages",
+					"Prereqs",
+					"Category"
+				]
+			},
+			{
+				"name": "Camps",
+				"names": [
+					"Date",
+					"Ages",
+					"Title",
+					"Description"
+				]
+			},
+			{
+				"name": "Labs",
+				"names": [
+					"Drop-In Lab",
+					"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently."
+				]
+			},
+			{
+				"name": "Categories",
+				"names": [
+					"Discover",
+					"Initial discover of computer science and art through games and activites designed for those who are younger"
+				]
+			},
+			{
+				"name": "Statuses",
+				"names": [
+					"Final",
+					"100% complete.",
+					"Course is teachable."
+				]
+			},
+			{
+				"name": "Certificates",
+				"names": [
+					"Title"
+				]
+			},
+			{
+				"name": "Prices",
+				"names": [
+					"Saturday Night Meetups",
+					"$0",
+					"(3 hours, $0/hour)"
+				]
+			}
+		]
+	},
+	"Calendar": [
+		{
+			"Date": "Friday, June 1, 2018",
+			"T": "‼️",
+			"Description": "Open house postponed due to roofing work"
+		},
+		{
+			"Date": "Saturday, June 2, 2018",
+			"T": "🍕",
+			"Description": "CANCELLED DUE TO ROOFING Thinking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, June 3, 2018",
+			"T": "🌅",
+			"Description": "CANCELLED DUE TO ROOFING Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, June 4, 2018",
+			"T": "🚫",
+			"Description": "CLOSED DUE TO ROOFING"
+		},
+		{
+			"Date": "Tuesday, June 5, 2018",
+			"T": "🚫",
+			"Description": "CLOSED DUE TO ROOFING"
+		},
+		{
+			"Date": "Wednesday, June 6, 2018",
+			"T": "🚫",
+			"Description": "CLOSED DUE TO ROOFING"
+		},
+		{
+			"Date": "Thursday, June 7, 2018",
+			"T": "🚫",
+			"Description": "CLOSED DUE TO ROOFING"
+		},
+		{
+			"Date": "Friday, June 8, 2018",
+			"T": "✍️",
+			"Description": "FALL AND WINTER REGISTRATION OPENS"
+		},
+		{
+			"Date": "Friday, June 8, 2018",
+			"T": "🎉",
+			"Description": "Open House •  9 am - 10 pm, free conversation, gaming, drinks, (wine for adults)"
+		},
+		{
+			"Date": "Saturday, June 9, 2018",
+			"T": "🎉",
+			"Description": "Open House •  9 am - 7 pm, free conversation, gaming, drinks, (wine for adults)"
+		},
+		{
+			"Date": "Saturday, June 9, 2018",
+			"T": "🍕",
+			"Description": "Gaming Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, June 10, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, June 11, 2018",
+			"T": "#️⃣",
+			"Description": "Week 1 - Summer • courses begin"
+		},
+		{
+			"Date": "Monday, June 11, 2018",
+			"T": "☀️",
+			"Description": "Camp: Minecraft® and Roblox® Game Development"
+		},
+		{
+			"Date": "Saturday, June 16, 2018",
+			"T": "🍕",
+			"Description": "Hacking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, June 17, 2018",
+			"T": "🌅",
+			"Description": "Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, June 18, 2018",
+			"T": "#️⃣",
+			"Description": "Week 2 - Summer"
+		},
+		{
+			"Date": "Monday, June 18, 2018",
+			"T": "☀️",
+			"Description": "Camp: Hacking with Kali Linux®"
+		},
+		{
+			"Date": "Saturday, June 23, 2018",
+			"T": "🍕",
+			"Description": "Coding Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, June 24, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, June 25, 2018",
+			"T": "#️⃣",
+			"Description": "Week 3 - Summer"
+		},
+		{
+			"Date": "Monday, June 25, 2018",
+			"T": "☀️",
+			"Description": "Camp: Game Coding for Unreal Engine® in C++"
+		},
+		{
+			"Date": "Monday, July 2, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR JULY 4TH"
+		},
+		{
+			"Date": "Tuesday, July 3, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR JULY 4TH"
+		},
+		{
+			"Date": "Wednesday, July 4, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR JULY 4TH"
+		},
+		{
+			"Date": "Thursday, July 5, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR JULY 4TH"
+		},
+		{
+			"Date": "Friday, July 6, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR JULY 4TH"
+		},
+		{
+			"Date": "Saturday, July 7, 2018",
+			"T": "🍕",
+			"Description": "Thinking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, July 8, 2018",
+			"T": "🌅",
+			"Description": "Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, July 9, 2018",
+			"T": "#️⃣",
+			"Description": "Week 4 - Summer"
+		},
+		{
+			"Date": "Monday, July 9, 2018",
+			"T": "☀️",
+			"Description": "Camp: Network Essentials"
+		},
+		{
+			"Date": "Saturday, July 14, 2018",
+			"T": "🍕",
+			"Description": "Gaming Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, July 15, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, July 16, 2018",
+			"T": "‼️",
+			"Description": "No course classes week of July 16th (because of Microelectronics Camp)"
+		},
+		{
+			"Date": "Monday, July 16, 2018",
+			"T": "☀️",
+			"Description": "Camp: Microelectronics with Raspberry Pi, Arduino, Microchip PIC, and Lightsabers (optional kit fee $80)"
+		},
+		{
+			"Date": "Saturday, July 21, 2018",
+			"T": "🍕",
+			"Description": "Hacking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, July 22, 2018",
+			"T": "🌅",
+			"Description": "Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, July 23, 2018",
+			"T": "#️⃣",
+			"Description": "Week 5 - Summer"
+		},
+		{
+			"Date": "Monday, July 23, 2018",
+			"T": "☀️",
+			"Description": "Camp: Game Art and Design for Unreal Engine®"
+		},
+		{
+			"Date": "Saturday, July 28, 2018",
+			"T": "🍕",
+			"Description": "Coding Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, July 29, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, July 30, 2018",
+			"T": "#️⃣",
+			"Description": "Week 6 - Summer"
+		},
+		{
+			"Date": "Monday, July 30, 2018",
+			"T": "☀️",
+			"Description": "Camp: Web Games, Art, and Effects with Canvas and Phaser®"
+		},
+		{
+			"Date": "Saturday, August 4, 2018",
+			"T": "🍕",
+			"Description": "Thinking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, August 5, 2018",
+			"T": "🌅",
+			"Description": "Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, August 6, 2018",
+			"T": "#️⃣",
+			"Description": "Week 7 - Summer"
+		},
+		{
+			"Date": "Monday, August 6, 2018",
+			"T": "☀️",
+			"Description": "Camp: Visual Story Games with Ren’Py® in Python"
+		},
+		{
+			"Date": "Saturday, August 11, 2018",
+			"T": "🍕",
+			"Description": "Gaming Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, August 12, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, August 13, 2018",
+			"T": "#️⃣",
+			"Description": "Week 8 - Summer"
+		},
+		{
+			"Date": "Monday, August 13, 2018",
+			"T": "☀️",
+			"Description": "Camp: Discord® Chat Bot Development in Go"
+		},
+		{
+			"Date": "Saturday, August 18, 2018",
+			"T": "✍️",
+			"Description": "SUMMER WORK ASSESSMENT REVIEW SUBMISSIONS AND PAYMENT DUE BY 7:00 PM"
+		},
+		{
+			"Date": "Saturday, August 18, 2018",
+			"T": "🍕",
+			"Description": "Hacking Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, August 19, 2018",
+			"T": "🌅",
+			"Description": "Minecraft Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, August 20, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR CLEANING AND PREPARATION"
+		},
+		{
+			"Date": "Tuesday, August 21, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR CLEANING AND PREPARATION"
+		},
+		{
+			"Date": "Wednesday, August 22, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR CLEANING AND PREPARATION"
+		},
+		{
+			"Date": "Thursday, August 23, 2018",
+			"T": "🚫",
+			"Description": "CLOSED FOR CLEANING AND PREPARATION"
+		},
+		{
+			"Date": "Friday, August 24, 2018",
+			"T": "🎉",
+			"Description": "Open House •  9 am - 10 pm, free conversation, gaming, drinks, (wine for adults)"
+		},
+		{
+			"Date": "Saturday, August 25, 2018",
+			"T": "🎉",
+			"Description": "Open House •  9 am - 7 pm, free conversation, gaming, drinks, (wine for adults)"
+		},
+		{
+			"Date": "Saturday, August 25, 2018",
+			"T": "🍕",
+			"Description": "Coding Meetup • 7 - 10 pm, https://meetup.com/skilstak, free/donation"
+		},
+		{
+			"Date": "Sunday, August 26, 2018",
+			"T": "🌅",
+			"Description": "Roblox Meetup •  2 - 5 pm, https://meetup.com/skilstak, $20 or 1 lab pass"
+		},
+		{
+			"Date": "Monday, August 27, 2018",
+			"T": "#️⃣",
+			"Description": "Week 1 - Fall • courses begin"
+		}
+	],
+	"WeekSummer": {
+		"MONDAY": {
+			"9:00 AM": "Camp",
+			"10:00 AM": "Camp",
+			"11:00 AM": "Camp",
+			"12:00 PM": "Camp Lab",
+			"1:00 PM": "Camp Lab",
+			"2:00 PM": "Camp Lab",
+			"3:00 PM": "Camp Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Lab",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Essentials",
+			"8:00 PM": "",
+			"9:00 PM": "Lab"
+		},
+		"TUESDAY": {
+			"9:00 AM": "Camp",
+			"10:00 AM": "Camp",
+			"11:00 AM": "Camp",
+			"12:00 PM": "Camp Lab",
+			"1:00 PM": "Camp Lab",
+			"2:00 PM": "Camp Lab",
+			"3:00 PM": "Camp Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Programmer & ChatBots",
+			"6:00 PM": "",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"WEDNESDAY": {
+			"9:00 AM": "Camp",
+			"10:00 AM": "Camp",
+			"11:00 AM": "Camp",
+			"12:00 PM": "Camp Lab",
+			"1:00 PM": "Camp Lab",
+			"2:00 PM": "Camp Lab",
+			"3:00 PM": "Camp Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Lab",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"THURSDAY": {
+			"9:00 AM": "Camp",
+			"10:00 AM": "Camp",
+			"11:00 AM": "Camp",
+			"12:00 PM": "Camp Lab",
+			"1:00 PM": "Camp Lab",
+			"2:00 PM": "Camp Lab",
+			"3:00 PM": "Camp Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Lab",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"FRIDAY": {
+			"9:00 AM": "Camp",
+			"10:00 AM": "Camp",
+			"11:00 AM": "Camp",
+			"12:00 PM": "Camp Lab",
+			"1:00 PM": "Camp Lab",
+			"2:00 PM": "Camp Lab",
+			"3:00 PM": "Camp Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Lab",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"SATURDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Lab",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Free Meetup\n1st: Talking\n2nd: Gaming\n3rd: Hacking\n4th: Coding"
+		},
+		"SUNDAY": {
+			"9:00 AM": "Closed",
+			"2:00 PM": "Club Meetup\n1st: Minecraft\n2nd: Roblox\n3rd: Minecraft\n4th: Roblox",
+			"5:00 PM": "Closed"
+		}
+	},
+	"WeekFall": {
+		"MONDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Principles",
+			"5:00 PM": "Essentials",
+			"6:00 PM": "Lab",
+			"7:00 PM": "GameSimDesign",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"TUESDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Programmer",
+			"5:00 PM": "Lab",
+			"6:00 PM": "KaliHacking",
+			"7:00 PM": "Lab",
+			"8:00 PM": "GameSimCoding",
+			"9:00 PM": "Lab"
+		},
+		"WEDNESDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Principles",
+			"5:00 PM": "Essentials",
+			"6:00 PM": "Programmer",
+			"7:00 PM": "Lab",
+			"8:00 PM": "ProWebApps",
+			"9:00 PM": "Lab"
+		},
+		"THURSDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Roblox",
+			"6:00 PM": "WebArtAnim",
+			"7:00 PM": "Lab",
+			"8:00 PM": "InteractiveFiction",
+			"9:00 PM": "Lab"
+		},
+		"FRIDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Principles",
+			"5:00 PM": "Minecraft",
+			"6:00 PM": "Roblox",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"SATURDAY": {
+			"9:00 AM": "Principles",
+			"10:00 AM": "Essentials",
+			"11:00 AM": "Programmer",
+			"12:00 PM": "Lab",
+			"1:00 PM": "GameSimDesign",
+			"2:00 PM": "Lab",
+			"3:00 PM": "LinuxUser",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Developer",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Free Meetup\n1st: Talking\n2nd: Gaming\n3rd: Hacking\n4th: Coding"
+		},
+		"SUNDAY": {
+			"9:00 AM": "Closed",
+			"2:00 PM": "Club Meetup\n1st: Minecraft\n2nd: Roblox\n3rd: Minecraft\n4th: Roblox",
+			"5:00 PM": "Closed"
+		}
+	},
+	"WeekWinter": {
+		"MONDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Essentials",
+			"5:00 PM": "Programmer",
+			"6:00 PM": "Lab",
+			"7:00 PM": "GameSimCoding",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"TUESDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Developer",
+			"5:00 PM": "Lab",
+			"6:00 PM": "LinuxUser",
+			"7:00 PM": "Lab",
+			"8:00 PM": "GameSimDesign",
+			"9:00 PM": "Lab"
+		},
+		"WEDNESDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Principles",
+			"5:00 PM": "Essentials",
+			"6:00 PM": "Programmer",
+			"7:00 PM": "Lab",
+			"8:00 PM": "WebSockets",
+			"9:00 PM": "Lab"
+		},
+		"THURSDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Minecraft",
+			"6:00 PM": "WebArtAnim",
+			"7:00 PM": "Lab",
+			"8:00 PM": "WebGameSim",
+			"9:00 PM": "Lab"
+		},
+		"FRIDAY": {
+			"9:00 AM": "Lab",
+			"10:00 AM": "Lab",
+			"11:00 AM": "Lab",
+			"12:00 PM": "Lab",
+			"1:00 PM": "Lab",
+			"2:00 PM": "Lab",
+			"3:00 PM": "Lab",
+			"4:00 PM": "Principles",
+			"5:00 PM": "Roblox",
+			"6:00 PM": "Minecraft",
+			"7:00 PM": "Lab",
+			"8:00 PM": "Lab",
+			"9:00 PM": "Lab"
+		},
+		"SATURDAY": {
+			"9:00 AM": "Principles",
+			"10:00 AM": "Essentials",
+			"11:00 AM": "Programmer",
+			"12:00 PM": "Lab",
+			"1:00 PM": "GameSimCoding",
+			"2:00 PM": "Lab",
+			"3:00 PM": "KaliHacking",
+			"4:00 PM": "Lab",
+			"5:00 PM": "Engineer",
+			"6:00 PM": "Lab",
+			"7:00 PM": "Free Meetup\n1st: Talking\n2nd: Gaming\n3rd: Hacking\n4th: Coding"
+		},
+		"SUNDAY": {
+			"9:00 AM": "Closed",
+			"2:00 PM": "Club Meetup\n1st: Minecraft\n2nd: Roblox\n3rd: Minecraft\n4th: Roblox",
+			"5:00 PM": "Closed"
+		}
+	},
+	"Courses": [
+		{
+			"ID": "Minecraft",
+			"Title": "Discovering Systems Engineering with Minecraft®",
+			"Description": "It's a well-documented fact that many top systems engineers started out playing Minecraft®. In fact, many of those currently leading local coding clubs and school programs started with Minecraft years ago at SkilStak. Today, kids as young as seven are learning complicated concepts such as the command-line without even realizing it. To them it's just fun.\n\nEvery student controls a private Minecraft server with plugins and full operator access for the duration of the course.  Each can invite friends and family to help them build it and see what they have learned. Students not only develop their creativity but are introduced to networking, programming, and engineering while building out and maintaining their world and server.\n\nPreparation:\n• Gmail account\n• Minecraft® account\n• Type 15+ wpm",
+			"Work": "0",
+			"Status": "Writing",
+			"Ages": "7-12",
+			"Prereqs": "None",
+			"Category": "Discovery"
+		},
+		{
+			"ID": "Roblox",
+			"Title": "Discovering Game Development with Roblox®",
+			"Description": "Roblox® has gone from being Minecraft's top rival to the most popular game creation and publishing platform for those under 16. With one click anyone can publish a Roblox world and immediately make money when others choose to play it. It is not exaggerating to say Roblox has made some 16 year olds into millionaires.\n\nNot only does Roblox development including learning the well-established Lua programming language (used to mod games and by IBM as well) but the game design interface is similar to a simplified Unreal Engine® easing entry into the game and simulation development world—a dream of many young developers.\n\nPreparation:\n• Gmail account \n• Roblox® account\n• Type 15+ wpm",
+			"Work": "0",
+			"Status": "Writing",
+			"Ages": "7-12",
+			"Prereqs": "None",
+			"Category": "Discovery"
+		},
+		{
+			"ID": "Principles",
+			"Title": "Elementary Principles of Computer Science",
+			"Description": "Principles of computer science can be learned in fun, unexpected ways that relate to the interests of those who are younger. The course explores them in unique ways tying in popular memes, games, and activities. This ain't yo grandpa's computer science class.\n\nPrinciples is designed to bridge the gap from playing Minecraft® and Roblox® and other games to starting to learn the more formal principles of computer science and programming while increasing core skills such as typing, math, and reading. Students experiece the thrill of writing their first game code, which itself can become a healthy addiction.\n\nCoding, like many things, benefits from a lot of repetition. Although the lessons remain the same, they are updated every semester to remain current and fun so that Principles can safely be repeated until the student is ready to move to Essentials. \n\nPreparation:\n• Gmail account\n• Type 15+ wpm",
+			"Work": "0",
+			"Status": "Writing",
+			"Ages": "9-12",
+			"Prereqs": "None",
+			"Category": "Core"
+		},
+		{
+			"ID": "Essentials",
+			"Title": "Essentials for New Technologists",
+			"Description": "Everyone starts out as a technologist, one who studies and promotes the use of technology to make the world a better place. Essentials teaches what few others will: how to become (and remain) a productive, respected, contributing member of the technology community. \n\nStudents learn how to create a personal (professional) learning network (PLN), make a simple web site, chart a course through the technical jungle, build and manage skills, know and use critical tech tools, write their first code, understand the history and future of computing, and sample the different flavors of technology available in the industry to find what they like.\n\nPreparation:\n• Gmail account\n• Type 24+ wpm",
+			"Work": "0",
+			"Status": "Extras",
+			"Ages": "12+",
+			"Prereqs": "None",
+			"Category": "Core"
+		},
+		{
+			"ID": "Programmer",
+			"Title": "Fundamentals of Modern Programming",
+			"Description": "One cannot become a novelist without mastering the art of writing. Such is true for the art of programming. Fundamentals teaches the universal concepts of programming in all languages by helping students simultaneously master the syntax of three of the most popular and important modern languages: JavaScript, Python, and Golang. Students who complete the course can proudly call themselves polyglot programmers and have the confidence of knowing they could easily master any language in their future.\n\nUnfortunately, most schools only teach a single language creating strong biases in beginning programmers (or aversion often in the case of Java) who often never learn another leading many to limit their opportunities both professionally and socially with pedantic technical bigotry. We teach to learn and use the right tool for the job.\n\nMost programmers will continue on to become developers adding mastery of paradigms, patterns, and best practices to the their programming skills.",
+			"Work": "1",
+			"Status": "Extras",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Core"
+		},
+		{
+			"ID": "Developer",
+			"Title": "Development Paradigms, Patterns, and Practices",
+			"Description": "When a company like Google hires they are looking for developers (not just programmers). Few teach programming as an art form, yet that is exactly what it is. A developer is an artisan who has demonstrated he or she can not only program in any language (given a bit of time to learn it) but also possesses the creative, organizational, and intuitive aptitude to craft elegant solutions to problems. A developer cares about approach, sustainability, and detail and has learned—above all—to focus on the need above the technology. Just because one can do something does not mean one should. Artisanal developers value simplicity and elegance over complexity. They lose sleep refactoring their code to be the easiest possible to understand by even junior programmers. Developers have committed themselves to the art of programming as well as the practice. Other code practitioners revere their creations as more than just code, but as works of art.",
+			"Work": "2",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Core"
+		},
+		{
+			"ID": "Engineer",
+			"Title": "Applied Computer Science Engineering",
+			"Description": "To truly understand computer science one must learn how a computer functions at the lowest level, on the chips. Unfortunately, most do not teach this because of the complicated resources required. SkilStak's small class size and hands-on approach enable this.\n\nStudents code Microchip PIC® microcontrollers in Assembly on the first day. Coding in C later becomes quickly understood and appreciated including normally confusing concepts as memory management, pointers, and system calls. These languages fill in the language collection providing a perfect set from lowest to the highest level.\n\nArduino® and Raspberry Pi® also introduced as students learn the art of physical programming things that operate in the real world and not just on the screen.\n\nThis is the capstone corse of core computer science. Students who complete this course have the best start possible as they progress further undertaking any project possible for work, school or fun.",
+			"Work": "3",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Developer",
+			"Category": "Core"
+		},
+		{
+			"ID": "LinuxUser",
+			"Title": "GNU/Linux® Essentials and Scripting",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Ops"
+		},
+		{
+			"ID": "LinuxAdmin",
+			"Title": "GNU/Linux® System Administration",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "LinuxUser",
+			"Category": "Ops"
+		},
+		{
+			"ID": "DevOps",
+			"Title": "Survey of DevOps Tools and Technologies",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "LinuxAdmin",
+			"Category": "Ops"
+		},
+		{
+			"ID": "KaliHacking",
+			"Title": "Pentesting with Kali Linux®",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "LinuxUser",
+			"Category": "Ops"
+		},
+		{
+			"ID": "NetworkSetup",
+			"Title": "TCP/IP Network Essentials",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Ops"
+		},
+		{
+			"ID": "WebAdmin",
+			"Title": "Web Server and Serverless Content Distribution",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "LinuxUser",
+			"Category": "Ops"
+		},
+		{
+			"ID": "WebAPI",
+			"Title": "Developing Robust Web APIs",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "WebAdmin, DBDeveloper, Developer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "Decentralized",
+			"Title": "Survey of Decentralized Computing",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Ops"
+		},
+		{
+			"ID": "WebArtAnim",
+			"Title": "Web Art, Animation, and Effects",
+			"Description": "🚧",
+			"Work": "1",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "WebGameSim",
+			"Title": "Web Game and Simulation Development",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Developer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "WebSockets",
+			"Title": "Web Sockets Applications Development",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "WebAPI",
+			"Category": "Apps"
+		},
+		{
+			"ID": "WebApps",
+			"Title": "Progressive Web Applications Development",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Developer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "DBDeveloper",
+			"Title": "Integrated Data Storage and SQL Development",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Developer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "DataScience",
+			"Title": "Survey of Data Science Tools and Technologies",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "DataScienceMath",
+			"Title": "Mathematics for Data Science",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Base"
+		},
+		{
+			"ID": "InteractiveFiction",
+			"Title": "Programming Interactive Fiction and Narratives",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Writing",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "ChatBots",
+			"Title": "Programming Interactive Chat Bots",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Planning",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "GameSimCoding",
+			"Title": "Game and Simulation Programming",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Planning",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		},
+		{
+			"ID": "GameSimDesign",
+			"Title": "Game and Simulation Design",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Planning",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Apps"
+		},
+		{
+			"ID": "GameSimPhysics",
+			"Title": "Game and Simulation Physics",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Base"
+		},
+		{
+			"ID": "GameSimMath",
+			"Title": "Game and Simulation Mathematics",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Base"
+		},
+		{
+			"ID": "GameSimArt",
+			"Title": "Game and Simulation 3D Modeling",
+			"Description": "🚧",
+			"Work": "3",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Sculpt"
+		},
+		{
+			"ID": "MachineLearnAI",
+			"Title": "Survey of AI, Machine, and Deep Learning",
+			"Description": "🚧",
+			"Work": "4",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Survey"
+		},
+		{
+			"ID": "Video",
+			"Title": "Video Streaming, Capture, and Editing",
+			"Description": "🚧",
+			"Work": "1",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Video"
+		},
+		{
+			"ID": "Sound",
+			"Title": "Sound Creation, Capture, and Editing",
+			"Description": "🚧",
+			"Work": "1",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Sound"
+		},
+		{
+			"ID": "BlogBrand",
+			"Title": "Modern Blogging and Branding",
+			"Description": "🚧",
+			"Work": "1",
+			"Status": "Accepted",
+			"Ages": "12+",
+			"Prereqs": "Essentials",
+			"Category": "Writing"
+		},
+		{
+			"ID": "ProgMicroArt",
+			"Title": "Programming Kinetic and Interactive Art with Microelectronics",
+			"Description": "🚧",
+			"Work": "2",
+			"Status": "Consider",
+			"Ages": "12+",
+			"Prereqs": "Programmer",
+			"Category": "Apps"
+		}
+	],
+	"Camps": [
+		{
+			"Date": "June 11th - 15th, 2018",
+			"Ages": "7-16",
+			"Title": "Minecraft® and Roblox® Game Development",
+			"Description": "This camp takes the beginning lessons from the Minecraft and Roblox courses and combines them into a fun and educational camp exprience designed mostly for those who are particularly young. Campers build out their own servers and worlds (which they can take home on USB sticks) as well as collaborate together on creating something fun. Campers don't even realize they are learning core tech skills in the process. Campers are introduced to online coding sites where they can learn real code playing online anytime—even after they leave camp.\n\nCampers who wish to continue their learning at SkilStak should consider registering for the Principles or, if more ambitious, Essentials.\n\nCampers do not receive their own public Minecraft server, but they can continue with the full course in the Fall where students do get their own servers."
+		},
+		{
+			"Date": "June 18th - 23rd, 2018",
+			"Ages": "12+",
+			"Title": "Hacking with Kali Linux®",
+			"Description": "This camp contains the basics from Linux and portions of KaliHacking and activities from the Hacking Meetup (such as capture the flag). Signing up for a Camp Lab Block in addition to the morning camp block is recommended.\n\nThis camp includes some field trips in the afternoons driving to different off site locations to (legally) assess security (and sometimes report flaws to business owners).\n\nSome experience with Linux and programming is definitely preferred but not required.\n\nCampers wanting to continue building their hacker skills should consider 3rd Satuday REDTEAM Meetups at SkilStak and proceeding with Essentials in order to later enroll in the Linux course and eventually KaliHacking."
+		},
+		{
+			"Date": "June 25th - 29th, 2018",
+			"Ages": "14+",
+			"Title": "Game Coding for Unreal Engine® in C++",
+			"Description": "Start learning one of the most significant languages ever created while creating simple additions to basic game made with the world's best triple-A gaming engine, Unreal®. The same engine used to create Fortnite® designed and used by perhaps the best game company to ever exist, EPIC® (which happens to headquartered be in Cary, NC). There really is no reason to learn any other engine. Unreal® has become the gold standard used by universities and others for premier Game and Simulation training.\n\nCampers will start by making a very basic map and coding simple additions one at a time. The focus of this camp is on integrating C++ with the Blueprints system. Those interested in focusing on map and game design should consider the camp later in the Summer that focuses on that (and requires less programming knowledge).\n\nSome programming background is definitely recommended but not strictly required. This camp is also offered as a course but the course has stricter prerequisite requirements since only seven students are accepted."
+		},
+		{
+			"Date": "July 9th - 13th, 2018",
+			"Ages": "14+",
+			"Title": "Network Essentials",
+			"Description": "Once upon on time people like Steve Jobs had to plead and convince people to consider the value of connecting two computers togerther. Now every device in this \"Internet of Things\" is connected, for better or worse. Understanding TCP/IP networking essentials is the first step toward understanding everything else, Hyper Text Transfer Protocol (the http in web addresses), Secure Shell (SSH) remote connections, UDP enabling battle royale games. Every technologist  must understanding of networking.\n\nCampers learn about networks while scanning and configuring them. We'll watch traffic with sniffers designed to watch the very packets travelling over the network in real time. We'll take a field trip or two to local businesses, grab a snack or coffee, and see what we can see. We'll discuss how important network security is -- particularly the maintenance of consumer-grade routers and how a lack of this has allows Russia and others to create a massive bot-net ready to attack others as it has so many already. Campers leave enlightened and excited to configure and secure their own home networks and understand how to host their own servers safely.\n\nWe'll spend a day exploring and discovering the advances in decentralized computing brought about by technologies underlying popular cryptocurrencies and their impact on the future Internet."
+		},
+		{
+			"Date": "July 16th - 20th, 2018",
+			"Ages": "12+",
+			"Title": "Microelectronics with Raspberry Pi, Arduino, Microchip PIC, and Lightsabers",
+			"Description": "Programming microelectronics -- sometimes called physical computing -- is particularly meaningful because it shows that world of programming does not end on the other side of a screen. Everything in our world uses code in some form -- including the biological world. Understanding basic electonics in addition to programming is a powerful combination. There is nothing more satisfying than writing code that makes something move, even just a little. \n\nCampers have the opportunity to explore several areas of physical computing by working on projects on the Rasperry PI, Arduino, and for the truly daring, our unique MicroChip PIC® learner programming boards that can code tiny consumer chips in Assembly and C. Don't worry, there's just a taste enough of each to understand the differences. For example, how a microcontroller and microcomputer are substantially different.\n\nThen, of course, there are the light sabers. We solder together competition grade, milled aluminum, light sabers after diagramming the simple electronics it contains. Those who sign up for the camp lab block will have ample opportunity to \"test\" them on the lawn out back."
+		},
+		{
+			"Date": "July 23rd - 27th, 2018",
+			"Ages": "12+",
+			"Title": "Game Art and Design for Unreal Engine®",
+			"Description": "Unreal Engine® is particularly special because it is the same engine and development environment used by the perhaps the best game development company in the world right now. Tools have been built into it for artists, designers, and coders so that they can work in concert with the least amount of frustration. Other engines can't come close. There is a reason Unreal is the preferred engine not by most every triple-A game development teams, the government, NASA, large event-planning and architecture firms, but also most colleges and universities with Game and Simulation offerings.\n\nThis camp is for future game designers who want to create maps, place items, and add basic game mechanics. Drawn from the industry standard text book on the topic campers first create a simple game and then test each others out providing feedback. Campers can take their game home and show it off with pride. Unreal, with thousands of assets, is also completely free providing the best entry into the game development world.\n\nGame and simulation can be a life-long hobby but the skills translate directly into other technologist careers."
+		},
+		{
+			"Date": "July 30 - August 3rd, 2018",
+			"Ages": "12+",
+			"Title": "Web Games, Art, and Effects with Canvas and Phaser®",
+			"Description": "Flash is dead. Phaser® is the new Flash. It uses 100% modern web technologies.\n\nThe state of modern JavaScript has suprassed most expectations. JavaScript is now -- without a doubt -- the single most important programming language on the planet, even moreso with Microsoft's® recent aquisition of GitHub®, the world's largest source code repository and the creator of the popular Atom editor. More importantly Microsoft now controls the Electron® platform used to create tools like Slack® and Discord® as well as their own open source editor VSCode® using nothing but web tech.\n\nCampers are introduced to the web languages (HTML, CSS, JavaScript) but spend most of their time coding in JavaScript using the Phaser® 3 game and simulation framework. They learn about the core canvas element of HTML and how to paint to it as they create a simple game anyone can play immediately on the web (no USB needed). They will also learn some online tools for creating art to use in their games."
+		},
+		{
+			"Date": "August 6th - August 10th, 2018",
+			"Ages": "12+",
+			"Title": "Visual Story Games with Ren' Py® in Python",
+			"Description": "Ren'Py® is a little known -- but industry standard -- tool specifically for creating \"visual novels\" popular with anime fans in particular. If you are an artist who enjoys creating amazing stills this is your engine. By combining images with narrative, powerful story games that depend on imagination for immersion can be created and easily shared.\n\nPerhaps you are not an artist but would like to code some \"interactive fiction\" popularized by the first ever computer game, Adventure, and other iterations such as Zork®. Sometimes words are the best vehicle for a game that draws on deeper images impossible to create except for in the heads and imaginations of the players. Text adventures and story games are a literary niche of endless possibilities requiring very little coding ability and with almost no limitation.\n\nIf you are a literature or English teach we would welcome you as well to show you the power and possibilities coding can bring to the literary arts."
+		},
+		{
+			"Date": "August 13th - 17th, 2018",
+			"Ages": "14+",
+			"Title": "Discord Chat Bot Development in Go",
+			"Description": "Discord® is THE chat app, for gamers or anyone really. The technology and interface is far superiour to Slack®, which isn't surprising. Game development tends to attract some of the brightest coders in the world, and with far less pretention. Interactive chat bots are here to stay. We see them in many forms from Amazon Alexis® to Discord chat bots. Creating a solid and module framework for expanding the vocabulary of these bots is core to their development. Ultimately they are all simple text processing applications.\n\nCampers code their bot in Golang, invented at Google and one of Forbe's \"two highest paying languages you have never heard of.\" In the process they learn a bit about networking, hosting, and web application programming interfaces (APIs). Most importantly, each leaves with a bot ready for additional intelligence to be added later, be it snarky responses to trolling to reporting the latest cryptocurrency valuations. One fun option is creating a narrator bot for an entire story game that can be played together by everyone in the chat room."
+		}
+	],
+	"Labs": [
+		{
+			"Drop-In Lab": "30-Lab Pass",
+			"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently.": "Same as the Drop-In but at a substantially discounted rate. Pass must be used within one year. One lab pass can also be used to pay for a Sunday Club Meetup (Minecraft/Roblox). Passes cannot be used by anyone but the name on the pass."
+		},
+		{
+			"Drop-In Lab": "7-Lab Pass",
+			"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently.": "Same as 30-Lab Pass but fewer."
+		},
+		{
+			"Drop-In Lab": "Weekly Reserved Lab",
+			"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently.": "Locks in a specific Lab time every week for the duration of a single semester."
+		},
+		{
+			"Drop-In Lab": "Camp Lab Block",
+			"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently.": "Optional afternoon block of labs available to those signing up for camps. Turns a morning camp into a full day."
+		}
+	],
+	"Categories": [
+		{
+			"Discover": "Base",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Base math and science upon which other categories depend"
+		},
+		{
+			"Discover": "Core",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Core computer science and programming"
+		},
+		{
+			"Discover": "Apps",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Applications development and data modeling and management"
+		},
+		{
+			"Discover": "Ops",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Systems and security operations, operating systems, and engineering"
+		},
+		{
+			"Discover": "Writing",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Art involving the written word"
+		},
+		{
+			"Discover": "Images",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Art involving still and animated images"
+		},
+		{
+			"Discover": "Sound",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Art involving sound creation, capture, production, editing and streaming."
+		},
+		{
+			"Discover": "Video",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Art involving video capture, editing, and streaming."
+		},
+		{
+			"Discover": "Sculpt",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Art involving digital and physical sculpture and 3D modeling"
+		},
+		{
+			"Discover": "Survey",
+			"Initial discover of computer science and art through games and activites designed for those who are younger": "Intensive research, study, discussion, and debate about current and future technologies and practices"
+		}
+	],
+	"Statuses": [
+		{
+			"Final": "Extras",
+			"100% complete.": "Supplemental content being added.",
+			"Course is teachable.": "Course is teachable."
+		},
+		{
+			"Final": "Writing",
+			"100% complete.": "Being actively written right now.",
+			"Course is teachable.": "Course is teachable."
+		},
+		{
+			"Final": "Planning",
+			"100% complete.": "Under active planning right now."
+		},
+		{
+			"Final": "Accepted",
+			"100% complete.": "Placed on calendar. Initial planning complete."
+		},
+		{
+			"Final": "Declined",
+			"100% complete.": "Seriously considered but declined."
+		},
+		{
+			"Final": "Consider",
+			"100% complete.": "Under consideration. Studying. Discussing."
+		},
+		{
+			"Final": "Hold",
+			"100% complete.": "Put on hold due to changes in the industry or SkilStak."
+		},
+		{
+			"Final": "Stopped",
+			"100% complete.": "Discontinued completely and archived."
+		}
+	],
+	"Certificates": [
+		{
+			"Title": "Python Developer"
+		},
+		{
+			"Title": "Node Developer"
+		},
+		{
+			"Title": "Golang Developer"
+		},
+		{
+			"Title": "GNU/Linux® C Developer"
+		},
+		{
+			"Title": "Microelectronics Programmer"
+		},
+		{
+			"Title": "Unreal Engine® Programmer"
+		},
+		{
+			"Title": "Unreal Engine® Game Designer"
+		},
+		{
+			"Title": "Database Developer"
+		},
+		{
+			"Title": "GNU/Linux® Systems Engineer"
+		},
+		{
+			"Title": "DevOps Engineer"
+		},
+		{
+			"Title": "Frontend Developer"
+		},
+		{
+			"Title": "Backend Developer"
+		},
+		{
+			"Title": "Full-Stack Developer"
+		},
+		{
+			"Title": "Web Server Administrator"
+		},
+		{
+			"Title": "Full-Stack Engineer"
+		},
+		{
+			"Title": "Systems Security Analyst"
+		},
+		{
+			"Title": "Offensive Security Professional"
+		},
+		{
+			"Title": "SkilStak® Lab Instructor"
+		},
+		{
+			"Title": "SkilStak® Co-Learning Community Leader"
+		}
+	],
+	"Prices": [
+		{
+			"Saturday Night Meetups": "Discord Chat Invitation",
+			"$0": "$0",
+			"(3 hours, $0/hour)": "(moderated, code of conduct)"
+		},
+		{
+			"Saturday Night Meetups": "Sunday Club Meetups",
+			"$0": "$20",
+			"(3 hours, $0/hour)": "(3 hours, $6.67/hour)"
+		},
+		{
+			"Saturday Night Meetups": "Summer Camp Lab Block",
+			"$0": "$200",
+			"(3 hours, $0/hour)": "(20 total hours, $10/hour)"
+		},
+		{
+			"Saturday Night Meetups": "Weekly Reserved Labs",
+			"$0": "$200",
+			"(3 hours, $0/hour)": "(16 total hours, $12.5/hour)"
+		},
+		{
+			"Saturday Night Meetups": "30-Lab Pass",
+			"$0": "$400",
+			"(3 hours, $0/hour)": "(30 total hours, $13.3/hour)"
+		},
+		{
+			"Saturday Night Meetups": "7-Lab Pass",
+			"$0": "$100",
+			"(3 hours, $0/hour)": "(5 total hours, $14.7/hour)"
+		},
+		{
+			"Saturday Night Meetups": "Drop-In Lab",
+			"$0": "$20",
+			"(3 hours, $0/hour)": "(1 hour, $20/hour)"
+		},
+		{
+			"Saturday Night Meetups": "Certificate Work Assessment",
+			"$0": "$30",
+			"(3 hours, $0/hour)": "(per semester work hour)"
+		},
+		{
+			"Saturday Night Meetups": "Course or Camp",
+			"$0": "$400",
+			"(3 hours, $0/hour)": "(16 total hours, $25/hour)"
+		}
+	]
+}

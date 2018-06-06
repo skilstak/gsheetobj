@@ -7,14 +7,24 @@ const gsobj = require('gsheetobj')
 const data = gsobj.fetch({
   spreadsheetId: '0L_596HdNVS_cYo_wG8WrwEaOwq5_mAsxliyVIqxZ3Tg',
   key: 'hIzaSyA8UfZselVWFFh63a9Ak_Tdml28WchWsGY',
-})
+}).then( ... )
+
+const data = gsobj.save({ ... }).then( ... )
+
+const data = gsobj.fetchMeta({ ... }).then( ... )
+
+const data = gsobj.fetchTable({ ... },'mysheet').then( ... )
 
 ```
 
 You know all that Google API stuff? Awesome, right? Well this makes it
-into what you really want, just some JavaScript objects you can use to
-populate templates and use to build static sites with
-[JAMstack](https://jamstack.org).
+into what you really want, JavaScript objects implied from the sheet
+itself. 
+
+Created mostly to pull down the data for populate templates and use to
+build static, serverless [JAMstack](https://jamstack.org) sites and
+progressive web apps. In fact, you can just include the `data.json` in
+your static site as a poor-man's read API.
 
 Algorithm
 ---------

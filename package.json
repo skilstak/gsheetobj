@@ -1,6 +1,6 @@
 {
   "name": "gsheetobj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple objects from Google Sheets using the version 4 API.",
   "main": "index.js",
   "scripts": {

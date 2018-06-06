@@ -4,7 +4,7 @@
 		"tables": [
 			{
 				"name": "Calendar",
-				"names": [
+				"colNames": [
 					"Date",
 					"T",
 					"Description"
@@ -12,7 +12,7 @@
 			},
 			{
 				"name": "WeekSummer",
-				"names": [
+				"colNames": [
 					"MONDAY",
 					"TUESDAY",
 					"WEDNESDAY",
@@ -21,7 +21,7 @@
 					"SATURDAY",
 					"SUNDAY"
 				],
-				"keys": [
+				"rowNames": [
 					"9:00 AM",
 					"10:00 AM",
 					"11:00 AM",
@@ -39,7 +39,7 @@
 			},
 			{
 				"name": "WeekFall",
-				"names": [
+				"colNames": [
 					"MONDAY",
 					"TUESDAY",
 					"WEDNESDAY",
@@ -48,7 +48,7 @@
 					"SATURDAY",
 					"SUNDAY"
 				],
-				"keys": [
+				"rowNames": [
 					"9:00 AM",
 					"10:00 AM",
 					"11:00 AM",
@@ -66,7 +66,7 @@
 			},
 			{
 				"name": "WeekWinter",
-				"names": [
+				"colNames": [
 					"MONDAY",
 					"TUESDAY",
 					"WEDNESDAY",
@@ -75,7 +75,7 @@
 					"SATURDAY",
 					"SUNDAY"
 				],
-				"keys": [
+				"rowNames": [
 					"9:00 AM",
 					"10:00 AM",
 					"11:00 AM",
@@ -93,7 +93,7 @@
 			},
 			{
 				"name": "Courses",
-				"names": [
+				"colNames": [
 					"ID",
 					"Title",
 					"Description",
@@ -106,7 +106,7 @@
 			},
 			{
 				"name": "Camps",
-				"names": [
+				"colNames": [
 					"Date",
 					"Ages",
 					"Title",
@@ -115,21 +115,21 @@
 			},
 			{
 				"name": "Labs",
-				"names": [
+				"colNames": [
 					"Drop-In Lab",
 					"Drop in anytime a Lab is on the Schedule. Useful for visitors from out of town or members wanting to get some extra direction and feedback on projects and learning either related to a course or doing independently."
 				]
 			},
 			{
 				"name": "Categories",
-				"names": [
+				"colNames": [
 					"Discover",
 					"Initial discover of computer science and art through games and activites designed for those who are younger"
 				]
 			},
 			{
 				"name": "Statuses",
-				"names": [
+				"colNames": [
 					"Final",
 					"100% complete.",
 					"Course is teachable."
@@ -137,13 +137,13 @@
 			},
 			{
 				"name": "Certificates",
-				"names": [
+				"colNames": [
 					"Title"
 				]
 			},
 			{
 				"name": "Prices",
-				"names": [
+				"colNames": [
 					"Saturday Night Meetups",
 					"$0",
 					"(3 hours, $0/hour)"

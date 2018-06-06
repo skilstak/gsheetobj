@@ -31,37 +31,37 @@ const fetchTable = (params,name) => new Promise( (resolve, reject) => {
 
       let meta = {
           name: name,
-          names: undefined,
-          keys: undefined
+          colNames: undefined,
+          rowNames: undefined
       }
 
       let data
       
-      meta.names = sheet.shift()
+      meta.colNames = sheet.shift()
 
-      if (! meta.names[0]) {
+      if (! meta.colNames[0]) {
 
         data = {}             // keyed
 
         //console.log(`${name} is keyed table`)
 
-        meta.names.shift()
-        for (let name of meta.names) {
+        meta.colNames.shift()
+        for (let name of meta.colNames) {
           data[name] = {}
         }
-        meta.keys = []
+        meta.rowNames = []
 
-        //console.log(`${name} has fields: ${meta.names}`)
+        //console.log(`${name} has fields: ${meta.colNames}`)
         for (let row of sheet) {
 
           // consume the first col as key
-          let key = row.shift()
-          meta.keys.push(key)
+          let rowName = row.shift()
+          meta.rowNames.push(rowName)
 
           // now the rest
           for (let n = 0; n < row.length; n++) {
-            let name = meta.names[n]
-            data[name][key] = row[n]
+            let colName = meta.colNames[n]
+            data[colName][rowName] = row[n]
           }
         }
       }
@@ -75,7 +75,7 @@ const fetchTable = (params,name) => new Promise( (resolve, reject) => {
         for (let row of sheet) {
           let obj = {}
           for (let n = 0; n < row.length; n++) {
-            obj[meta.names[n]] = row[n]
+            obj[meta.colNames[n]] = row[n]
           }
           data.push(obj)
         }

@@ -1,6 +1,6 @@
 {
   "name": "gsheetobj",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple objects from Google Sheets using the version 4 API.",
   "main": "index.js",
   "author": "Rob Muhlestein <rob@skilstak.com> (https://skilstak.io)",

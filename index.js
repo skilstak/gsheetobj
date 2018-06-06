@@ -16,8 +16,7 @@ const fetchMeta = params => new Promise( (resolve, reject) => {
         meta.tables.push(sh.properties.title)
       }
       resolve(meta)
-    })
-    .catch( err => reject(err) )
+    }).catch( err => reject(err) )
 
 })
 

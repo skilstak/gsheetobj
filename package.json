@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Simple objects from Google Sheets using the version 4 API.",
   "main": "index.js",
+  "author": "Rob Muhlestein <rob@skilstak.com> (https://skilstak.io)",
   "scripts": {
     "test": "mocha"
   },
@@ -10,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/skilstak/gsheetobj.git"
   },
-  "author": "Rob Muhlestein <rob@skilstak.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/skilstak/gsheetobj/issues"
@@ -20,5 +20,17 @@
     "chai": "^4.1.2",
     "googleapis": "^31.0.2",
     "mocha": "^5.2.0"
-  }
+  },
+  "keywords": [
+    "ssg",
+    "tool",
+    "google",
+    "sheets",
+    "api",
+    "client",
+    "database",
+    "tables",
+    "rows",
+    "columns"
+  ]
 }

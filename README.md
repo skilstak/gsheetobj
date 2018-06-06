@@ -21,10 +21,12 @@ You know all that Google API stuff? Awesome, right? Well this makes it
 into what you really want, JavaScript objects implied from the sheet
 itself. 
 
-Created mostly to pull down the data for populate templates and use to
-build static, serverless [JAMstack](https://jamstack.org) sites and
-progressive web apps. In fact, you can just include the `data.json` in
-your static site as a poor-man's read API.
+Created initially to pull down the data in a friendlier (albeit larger)
+way for populating Mustache templates in custom static, serverless
+[JAMstack](https://jamstack.org) site generation using only Gulp (which
+is much simpler than setting up GraphQL as Gatsby requires). In fact,
+you can just include the `data.json` in your static site as a poor-man's
+read API for simple, smaller data-driven web sites.
 
 Algorithm
 ---------
@@ -92,3 +94,11 @@ Hidden rows and columns are not hidden. Data will have to either be
 deleted from the sheet or filtered after the data is fetched and
 returned by the caller. This encourages you to create an aging data
 strategy.
+
+Testing
+-------
+
+Since this requires setting up a Google Sheets spreadsheet with an API
+key testing has been commented out by default but left in to
+demonstrate. (If you have a good suggestions on how that could be
+automated without blowing up the quota let me know.)

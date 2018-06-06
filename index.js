@@ -113,7 +113,7 @@ const fetch = params => new Promise( (resolve, reject) => {
 const save = (params,file='data.json') => new Promise( (res, rej) => {
   fetch(params)
   .then( data => {
-    fs.writeFile( file, JSON.stringify(data,null,'\t'), err => {
+    fs.writeFile( file, JSON.stringify(data), err => {
       if (err) rej(err)
       else res(data)
     })

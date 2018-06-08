@@ -9,8 +9,8 @@ describe('tests commented', _ => {
 
 /*
 const params = {
-  spreadsheetId: 'L_596HdNVS_cYo_wG8WrwEaOwq5_mAsxliyVIqxZ3Tg',
-  key: 'IzaSyA8UfZselVWFFh63a9Ak_Tdml28WchWsGY',
+  spreadsheetId: <YOURID>,
+  key: <YOURAPIKEY>,
 }
 
 describe('fetchMeta(params)', _ => {

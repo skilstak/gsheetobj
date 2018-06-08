@@ -5,8 +5,8 @@ Google Sheets Simplifier
 const gsobj = require('gsheetobj')
 
 const data = gsobj.fetch({
-  spreadsheetId: '0L_596HdNVS_cYo_wG8WrwEaOwq5_mAsxliyVIqxZ3Tg',
-  key: 'hIzaSyA8UfZselVWFFh63a9Ak_Tdml28WchWsGY',
+  spreadsheetId: <YOURSHEETID>,
+  key: <YOURAPIKEY>,
 }).then( ... )
 
 const data = gsobj.save({ ... }).then( ... )
